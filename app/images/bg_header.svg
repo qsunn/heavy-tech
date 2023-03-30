@@ -1,0 +1,11 @@
+<svg fill="none" xmlns="http://www.w3.org/2000/svg" class="svg-bg" viewBox="0 0 1920 223">
+  <path d="M691.998 93.606H-43.439V-25.966H1973.48V93.606H1229.6L960.337 220.905l-268.339-127.3Z" stroke="url(#grad)" stroke-width="2" stroke-dasharray="800" stroke-dashoffset="500" fill="#000">
+    <animate attributeName="stroke-dashoffset" values="-1500; 0" dur="5s" repeatCount="indefinite"/>
+  </path>
+  <defs>
+    <linearGradient id="grad" x1="965.021" y1="164.509" x2="965.021" y2="93.606" gradientUnits="userSpaceOnUse">
+      <stop stop-color="red"/>
+      <stop offset="1" stop-color="red" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+</svg>
