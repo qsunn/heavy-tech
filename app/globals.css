@@ -32,12 +32,24 @@
   font-weight: 600;
 }
 
+@font-face {
+  font-family: 'Times New Roman';
+  src: url('./fonts/times/Times\ New\ Roman.ttf');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Times New Roman';
+  src: url('./fonts/times/Times\ New\ Roman\ Bold.ttf');
+  font-weight: 600;
+}
+
 body {
   font-family: 'JUST Sans', sans-serif;
   font-style: normal;
   font-weight: 400;
   color: #fff;
-  background: #000;
+  background: #0A0A0A;
 }
 
 @media(max-width: 1920px) {
@@ -69,7 +81,7 @@ body {
   height: 0;
   border: 1px solid;
   border-image-slice: 1;
-  border-image-source: linear-gradient(90deg, rgba(255, 0, 0, 0) 0%, #FF0000 50.47%, rgba(255, 0, 0, 0) 103.09%);
+  border-image-source: linear-gradient(90deg, rgba(255, 0, 0, 0) 0%, #C82A2D 50.47%, rgba(255, 0, 0, 0) 103.09%);
 }
 
 .transition {
@@ -82,4 +94,12 @@ body {
   border: 1px solid;
   border-image-slice: 1;
   border-image-source: linear-gradient(90deg, #C82A2D 0%, #C82A2D 0.01%, rgba(200, 42, 45, 0) 97.69%) !important;
+}
+
+.lineServices {
+  width: 2.75rem;
+  height: 0;
+  border: 1px solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(90deg, #C82A2D 0%, rgba(200, 42, 45, 0) 79.55%);
 }

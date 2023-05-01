@@ -1,19 +1,12 @@
 import { s } from "@/app/styles"
-import Link from "next/link"
 
 export const HowWeWork = () => {
-    return <section className={`${s.container} !place-items-start pt-28 md:pt-0 overflow-x-hidden`}>
-        <div className={`${s.gridRow} md:grid-flow-col gap-28`}>
-            <div className="grid grid-flow-row place-items-start gap-14 w-full">
-                <h2 className={s.titleStart}>Lorem Ipsum is simply <span className="text-red">dummy text</span> of the printing and typesetting industry</h2>
-                <p className={s.textStart}>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown
-                    <br /> <br />
-                    printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries
-                </p>
-                <Link href="#" className={s.button}>See more</Link>
-            </div>
-            <div className={`${s.bgImage} bg-[url('./images/about_img_6.png')] h-[56.5rem] w-[43rem]`} />
+    return <section className={`${s.container} pt-26 pb-14 bg-[url('./images/bg_howWeWork.png')] bg-right bg-contain bg-no-repeat`}>
+        <div className={`${s.gridRow} !place-items-start gap-14 w-full`}>
+            <p className="text-3xl font-['Times_New_Roman']">At Heavyetch MRO, we pride ourselves on delivering high-quality MRO services that keep your aircraft operating safely and efficiently. We&apos;re committed to providing personalized service that meets your unique needs, and we&apos;re always striving to exceed your expectations.</p>
+            <h3 className="font-extralight text-base md:font-medium md:text-2xl">Here&apos;s how we work:</h3>
+            <div> * cards * </div>
+            <p className={`font-extralight text-base max-w-[37.5rem]`}>We take pride in our work and are dedicated to providing you with the highest quality MRO services in the industry. Contact us today to see how we can help keep your aircraft operating at peak performance.</p>
         </div>
     </section>
 }

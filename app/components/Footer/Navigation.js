@@ -12,10 +12,9 @@ export const Navigation = () => {
           <div className="flex flex-col gap-8">
             <h3 className="font-medium text-2xl md:text-base">Services</h3>
             <div className="font-light opacity-50 text-base md:text-sm flex flex-col gap-2">
-              <Link href="#">Private Jet For Business Travel</Link>
-              <Link href="#">Renovation & Maintenance</Link>
-              <Link href="#">Private Jet charter</Link>
-              <Link href="#">Empty Legs</Link>
+              <Link href="#">Sample text</Link>
+              <Link href="#">Sample text</Link>
+              <Link href="#">Sample text</Link>
             </div>
           </div>
           <div className="flex flex-col gap-8">
@@ -28,7 +27,6 @@ export const Navigation = () => {
               </div>
               <div className="flex flex-col gap-2">
                 <Link href="#">Maintenance</Link>
-                <Link href="#">Booking</Link>
                 <Link href="#">Contact US</Link>
               </div>
             </div>
@@ -38,7 +36,6 @@ export const Navigation = () => {
             <div className="font-light opacity-50 text-base md:text-sm flex flex-col gap-2">
               <Link href="#">Facebook</Link>
               <Link href="#">Instagram</Link>
-              <Link href="#">Twitter</Link>
               <Link href="#">LinkedIn</Link>
             </div>
           </div>
@@ -47,11 +44,14 @@ export const Navigation = () => {
               Subscribe to our newsletter
             </h3>
             <form className="flex flex-col items-start gap-7">
-              <input
-                type="email"
-                placeholder="Address Email*"
-                className={s.input}
-              />
+              <div className="relative w-full">
+                <input
+                  type="email"
+                  placeholder="Address Email*"
+                  className={s.input}
+                />
+                <div className={s.inputRhomb} />
+              </div>
               <button type="submit" className={s.button2}>
                 Subscribe
               </button>

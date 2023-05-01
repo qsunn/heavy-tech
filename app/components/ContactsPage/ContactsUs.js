@@ -2,14 +2,14 @@ import { s } from "@/app/styles"
 import { Form } from "./Form"
 
 export const ContactsUs = () => {
-    return <section className={`${s.container} ${s.bgImage} bg-[url('./images/bg_contacts.png')] !bg-cover pb-60 pt-72`}>
+    return <section className={`${s.container} ${s.bgImage} bg-[url('./images/bg_contacts.png')] !bg-cover !bg-top! pb-60 pt-72 border-b border-red`}>
         <div className="w-full flex items-start justify-between gap-40 flex-col md:flex-row">
             <div className="flex flex-col items-center md:items-start w-full max-w-[33rem] text-center md:text-start">
-                <h1 className="text-5xl font-light mb-4">
+                <h1 className="text-5xl font-light font-['Times_New_Roman'] mb-4">
                     Contact Us
                 </h1>
                 <p className={`${s.textStart} mb-16`}>
-                    There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some
+                    Get in touch with our team of experienced technicians and engineers to get the best MRO services in the industry.
                 </p>
                 <div className="md:hidden activeTabDecorator mb-14" />
                 <div className="hidden md:block line mb-14" />

@@ -10,9 +10,7 @@ export default function Home() {
     <MainContainer>
       <Landing />
       <Mro />
-      <div className="w-full hidden md:block">
-        <Earth />
-      </div>
+      <Earth />
       <Certificates />
       <Services />
     </MainContainer>
