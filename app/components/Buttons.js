@@ -1,5 +1,5 @@
-import { s } from "@/app/styles"
 import Link from "next/link"
+import { s } from "../styles"
 
 export const Buttons = () => {
     return <div className="flex gap-4 items-center justify-center flex-col md:flex-row">
