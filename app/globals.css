@@ -103,3 +103,12 @@ body {
   border-image-slice: 1;
   border-image-source: linear-gradient(90deg, #C82A2D 0%, rgba(200, 42, 45, 0) 79.55%);
 }
+
+.card {
+  background: rgba(10, 10, 10, 0.4);
+}
+
+.card:hover,
+.card.active {
+  background: linear-gradient(120deg, #C82A2D 0%, rgba(21, 21, 21, 0) 69%);
+}

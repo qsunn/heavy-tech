@@ -9,7 +9,7 @@ export const Services = () => {
     const [activeIdx, setActiveIdx] = useSlider(services);
 
     return <section className={`${s.container} relative bg-[url('./images/bg_mro.png')] bg-no-repeat bg-top bg-cover pt-32 pb-20`}>
-        <div className={`absolute ${s.container} top-50 md:top-32 ${s.bgImage} bg-[length:auto_100%] bg-[url('./images/decor_line.svg')] h-44 w-full`}>
+        <div className={`absolute ${s.container} top-0 md:top-32 ${s.bgImage} bg-[length:auto_100%] bg-[url('./images/decor_line.svg')] h-24 md:h-44 w-full`}>
             <div className={`${s.gridCol} gap-16 absolute top-[4rem] md:top-[10.5rem]`}>
                 {services.map((service, i) => <Service key={i} service={service.name} activeIdx={activeIdx} idx={i} setActiveIdx={setActiveIdx} />)}
             </div>

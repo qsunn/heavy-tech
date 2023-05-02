@@ -41,3 +41,39 @@ export const servicesImages = [
     "bg-[url('./images/about_img_4.png')]",
     "bg-[url('./images/about_img_5.png')]",
 ];
+
+export const qualitiesData = [
+    {
+        name: 'Experience',
+        description: 'With years of experience in the industry, our team of expert technicians and engineers have the knowledge and skills to deliver exceptional services that meet and exceed your expectations.',
+    }, {
+        name: 'Quality',
+        description: 'We are committed to providing the highest quality MRO services that meet and exceed industry standards, ensuring that your aircraft is safe and reliable for every flight.',
+    }, {
+        name: 'Customer Service',
+        description: "Our commitment to personalized customer service means that you'll always receive the attention and support you need, whenever you need it.",
+    }, {
+        name: 'Technology',
+        description: 'We invest in the latest state-of-the-art technology and equipment to ensure that we deliver the most advanced and innovative solutions to meet your unique MRO needs.',
+    },
+]
+
+export const howWeWorkData = [
+    {
+        name: "Consultation",
+        description: "We begin by consulting with you to understand your specific needs and requirements. We work closely with you to develop a customized MRO solution that meets your budget and timeline.",
+        v2: true,
+    }, {
+        name: "Inspection",
+        description: "Our team of experienced technicians performs a comprehensive inspection of your aircraft to assess its condition and identify any potential issues.",
+        v2: true,
+    }, {
+        name: "Maintenance, Repair & Overhaul",
+        description: "We use state-of-the-art equipment and technology to perform routine maintenance, major repairs, and overhauls to ensure that your aircraft is safe and reliable for every flight.",
+        v2: true,
+    }, {
+        name: "Testing",
+        description: "We perform thorough testing to ensure that all systems are functioning properly and to identify any issues that may need to be addressed.",
+        v2: true,
+    },
+]
