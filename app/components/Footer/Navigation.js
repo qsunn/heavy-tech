@@ -12,31 +12,40 @@ export const Navigation = () => {
           <div className="flex flex-col gap-8">
             <h3 className="font-medium text-2xl md:text-base">Services</h3>
             <div className="font-light opacity-50 text-base md:text-sm flex flex-col gap-2">
-              <Link href="#">Sample text</Link>
-              <Link href="#">Sample text</Link>
-              <Link href="#">Sample text</Link>
+              <Link href="services">Base Maintenance and Workshops</Link>
+              <Link href="services">Engine Maintenance</Link>
+              <Link href="services">AOG</Link>
+              <Link href="services">CAMO Activity</Link>
+              <Link href="services">Painting Shop</Link>
+              <Link href="services">Other Maintenance</Link>
             </div>
           </div>
           <div className="flex flex-col gap-8">
             <h3 className="font-medium text-2xl md:text-base">Menu</h3>
             <div className="font-light opacity-50 text-base md:text-sm flex gap-8">
               <div className="flex flex-col gap-2">
-                <Link href="#">Homepage</Link>
-                <Link href="#">About Us</Link>
-                <Link href="#">Services</Link>
+                <Link href="/">Homepage</Link>
+                <Link href="about">About Us</Link>
+                <Link href="services">Services</Link>
               </div>
               <div className="flex flex-col gap-2">
-                <Link href="#">Maintenance</Link>
-                <Link href="#">Contact US</Link>
+                <Link href="certificates">Certificates</Link>
+                <Link href="contacts">Contact US</Link>
               </div>
             </div>
           </div>
           <div className="flex flex-col gap-8">
             <h3 className="font-medium text-2xl md:text-base">Social Media</h3>
             <div className="font-light opacity-50 text-base md:text-sm flex flex-col gap-2">
-              <Link href="#">Facebook</Link>
+              <Link
+                href="https://www.facebook.com/people/Genteel-Jet/pfbid01UkxW75b7kFGQigdCyeHhRu2EpmcNW5or5e2r4FkM75quBG7Gf2oGaUH2maArnXal/"
+                target="_blank"
+              >Facebook</Link>
               <Link href="#">Instagram</Link>
-              <Link href="#">LinkedIn</Link>
+              <Link
+                href="https://www.linkedin.com/company/genteel-jet/"
+                target="_blank"
+              >LinkedIn</Link>
             </div>
           </div>
           <div className="hidden md:flex flex-col gap-8">

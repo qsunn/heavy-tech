@@ -8,7 +8,7 @@ export const Landing = () => {
                 <p className={`${s.mainSubtitle} mb-6 md:mb-8`}>Reliable and trust worthy partner<br className="md:hidden" /> for your business</p>
                 <h1 className={`${s.mainTitle} !text-4xl my-4`}>From routine maintenance to major repairs and overhauls, we have the expertise<br className="hidden md:block" /> and resources to get the job done right and on time.</h1>
             </div>
-            <Buttons />
+            <Buttons href='/' />
         </div>
     </section>
 }

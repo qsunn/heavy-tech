@@ -13,7 +13,7 @@ export const Card = ({ item: { name, description, v2 = false }, idx, activeIdx }
         mouseX.set(clientX - left);
         mouseY.set(clientY - top);
     }
-    return <li key={name} onMouseMove={handleMouseMove} className={`group h-[16rem] md:h-auto relative border ${idx === activeIdx ? 'card active border-red/10 border-r-0' : 'border-white/10 hidden md:block'} bg-transparent backdrop-blur py-12 px-14 shadow-2xl}`}>
+    return <li key={name} onMouseMove={handleMouseMove} className={`group h-[16rem] md:h-auto relative border border-r-0 ${idx === activeIdx ? 'card active border-red/10' : 'border-white/10 hidden md:block'} bg-transparent backdrop-blur py-12 px-14 shadow-2xl}`}>
         <motion.div
             className="pointer-events-none z-[-1] absolute -inset-px opacity-0 transition duration-300 group-hover:opacity-100"
             style={{
