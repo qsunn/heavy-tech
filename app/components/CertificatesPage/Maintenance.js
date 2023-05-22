@@ -1,10 +1,10 @@
 import { s } from "@/app/styles"
 
 export const Maintenance = () => {
-    return <section className={`${s.container} pt-36 pb-20 md:pt-[14rem] relative bg-gradient-to-b from-black via-[#222] to-black`}>
-        <div className="absolute top-0 left-0 grid place-items-center h-full w-auto overflow-hidden mix-blend-lighten">
-            <div className="w-[508%] md:w-[110%]">
-                <video autoPlay loop muted className="h-full w-auto opacity-[12%]">
+    return <section className={`${s.container} pt-36 pb-20 md:pt-[14rem] relative bg-gradient-to-b from-black via-[#111] to-black`}>
+        <div className="absolute top-4 left-0 grid place-items-center h-full w-auto overflow-hidden mix-blend-lighten">
+            <div className="w-[508%] md:w-[112%]">
+                <video autoPlay loop muted className="h-full w-auto opacity-40">
                     <source src={"/heavy1.mp4"} type="video/mp4" />
                 </video>
             </div>

@@ -3,9 +3,9 @@ import { Buttons } from "../Buttons"
 
 export const Landing = () => {
     return <section className={`${s.container} pt-80 md:pt-[36rem] pb-9 bg-gradient-to-b from-[#424242] to-[#111] relative`}>
-        <div className="absolute top-0 left-0 grid place-items-center h-full w-auto overflow-hidden mix-blend-multiply">
+        <div className="absolute top-0 left-0 grid place-items-center h-full w-auto overflow-hidden mix-blend-overlay">
             <div className="max-sm:w-[320%] h-full">
-                <video autoPlay loop muted className="h-full w-auto opacity-75">
+                <video autoPlay loop muted className="h-full w-auto">
                     <source src={"/heavy.mp4"} type="video/mp4" />
                 </video>
             </div>
