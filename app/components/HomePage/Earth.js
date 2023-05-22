@@ -12,10 +12,10 @@ export const Earth = () => {
     ]
 
     return <section className={`${s.container} !place-items-start pt-10 md:pt-18 pb-16 md:pb-[5.5rem] ${s.bgImage} bg-[url('./images/bg_earth_mob.png')] md:bg-[url('./images/bg_earth.png')] bg-right-top border-t border-[#202020] relative`}>
-        <div className="bg-[url('./images/bg_we_can_perform.svg')] w-[35rem] h-[4.25rem] bg-contain bg-center bg-no-repeat absolute left-[-9.5rem] md:left-16 top-[13.125rem] md:top-[10.75rem] select-none z-[-1]" />
+        <div className="bg-[url('./images/bg_we_can_perform.svg')] w-[35rem] h-[4.25rem] bg-contain bg-center bg-no-repeat absolute left-[-9.5rem] md:left-16 top-[13rem] md:top-[10.5rem] select-none z-[-1]" />
         <div className="grid grid-flow-row place-items-start gap-16 w-full">
             <p className={s.textStart}>Our Base Maintenance facilities are situated at Bulgaria (Varna), Romania, Kenya and Egypt (Cairo), where we perform A, C, and D checks as well as modifications and repairs along with full range of aircraft SB and AD accomplishments.</p>
-            <h2 className={`${s.titleStart} md:!text-4xl`}>We can perform</h2>
+            <h2 className={`${s.titleStart} md:!text-3xl`}>We can perform</h2>
             <ul className="grid grid-cols-1 md:grid-cols-2 gap-x-18 gap-y-[0.625rem]">
                 {services.map((s, i, arr) => <li key={s} className="font-light text-lg flex flex-col gap-[0.625rem]">
                     <span>{s}</span>
